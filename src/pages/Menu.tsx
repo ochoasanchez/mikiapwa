@@ -23,7 +23,7 @@ export function Menu() {
       <MainSubtitle text="¿A qué quieres enfrentarte?" />
 
       <div className="flex w-full flex-col gap-4">
-        <ActionButton url="/trivia" text="Juego de trivia" />
+        {/* <ActionButton url="/trivia" text="Juego de trivia" /> */}
         <ActionButton url="/memory" text="Juego de memoria" />
         <ActionButton
           url="/"

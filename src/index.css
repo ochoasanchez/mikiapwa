@@ -226,11 +226,11 @@ header {
   @apply text-center text-6xl font-bold;
 }
 .form__label {
-  @apply text-2xl;
+  @apply text-3xl;
 }
 
 .form__label span {
-  @apply text-green-500;
+  @apply text-green-500 font-bold;
 }
 .form__input {
   @apply mt-2 flex w-full rounded-xl sm:px-2 sm:py-2 text-4xl text-black shadow-sm outline-none ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-orange-600;

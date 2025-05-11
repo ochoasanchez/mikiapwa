@@ -128,8 +128,8 @@ async function handleFormSubmitIDB() {
       </div>
       <div className="px-4 text-center">
         {isPlayer ? (
-          <h1 className="text-center text-5xl sm:text-6xl font-bold">
-            ¡Completa este formulario <br /> y empieza el desafío!
+          <h1 className="text-center text-5xl sm:text-6xl">
+            Llena el formulario <br/>antes de jugar
           </h1>
         ) : (
           <MainTitle text="¡Completa este formulario!" />
